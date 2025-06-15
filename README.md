@@ -55,25 +55,25 @@ A real-time ergonomic posture analyzer built with Python, MediaPipe Pose & OpenC
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure Overview
 
-```
-.
-├── demo/
-│   └── Posture_Detection_Demo.ipynb   # Jupyter walkthrough
-├── posture_detection.py               # Main real‑time script
-├── utils/
-│   ├── angle_utils.py                 # Joint‑angle computations
-│   └── logger.py                      # Session logging & CSV export
-├── requirements.txt
-└── README.md
-```
+- **Driver Safety**: CSVs, preprocessing.pkl, analysis notebook
+- **Exercise**: 
+  - Yoga pose folders (train/test)
+  - Model training script, evaluation report & confusion matrix
+- **Handley**: YOLOv5 model config, training output
+- **Sitting**: Image dataset (train/test/val), result folders, model script
+- **Main Files**: `main.py`, README, and a screenshot
+
+> ⚠️ Images and model weights are excluded. DM for full access.
+
+
 
 ---
 
 ## ⚙️ Dependencies
 
-* Python 3.7+
+* Python 3.10+
 * `opencv-python`
 * `mediapipe`
 * `numpy`
@@ -96,5 +96,3 @@ pip install opencv-python mediapipe numpy pandas
 5. Open a Pull Request
 
 
-
-Made by Zain Iqbal
